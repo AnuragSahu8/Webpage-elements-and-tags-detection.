@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['Breadcrumb', 'Image', 'Navigation-dots', 'buttons', 'checkbox', 'container', 'dropdown', 'input-fields', 'links', 'logo-images', 'radio', 'text']
+
+roboflow:
+  workspace: firstproject-wtqvp
+  project: elements-identification
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/firstproject-wtqvp/elements-identification/dataset/2
